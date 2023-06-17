@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harsavardhana-Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Harsavardhana Kandrakota
+          <div class="contact_info">
+            <img src="https://www.pngitem.com/pimgs/m/533-5330114_email-icon-vector-png-transparent-png.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          kandrakotaharshavardhan@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.hE6M1KsmyCKGI4Rx8OWpAQHaHa&pid=Api&P=0&h=180" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          8519963710
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://www.sarvika.com/wp-content/uploads/2021/03/Backend-Developer-Python-GIF-Dribble.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Harsavardhana! <img src="" width="60px"/>
+          </h1>
+          <p>
+            Dedicated student aspiring to be a full stack developer. Skilled in HTML, CSS, JavaScript, React, Node.js, and Python. 
+            Passionate about creating user-friendly applications, delivering robust solutions, and staying updated with industry trends.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="http://1.bp.blogspot.com/-NGHwBncyA68/UiMm_8b2ZUI/AAAAAAAAAnA/17OGXCKI4zE/s1600/Logo+HTML5.JPG"/>
+          <h6>HTML</h6>
+          
+        </div>
+        <div class="skill">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.SeGpEry_qXf0R1k1gyGk4gHaIv&pid=Api&P=0&h=180"/>
+            <h6>CSS</h6>
+            
+          </div>  
+
+        <div class="skill">
+          <img src="https://ictacademy.com.ng/wp-content/uploads/2020/02/92.-JavaScript-logo.png"/>
+          <h6>JavaScript</h6>
+          
+        </div>  
+        <div class="skill">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.9XKI54bo_4Duu9QQA6ZgAAHaEK&pid=Api&P=0&h=180"/>
+            <h6>Python</h6>
+            
+        </div>
+          
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Radiation detector</h3>
+            <ul>
+              <li>Radiation detector using 555 timer and ESP8266: High intensity radiation is detected 
+                and information of intensity is taken to understand safe operational zone</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>restaurant menu</h3>
+            <ul>
+              <li>Static restaurant menu using html and CSS.</li>
+            </ul>
+          </div>
+        <hr>
+          <div class="project-card">
+            <h3>Environmental audio classification</h3>
+            <ul>
+              <li>Audio classification using convolutional neural networks</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
